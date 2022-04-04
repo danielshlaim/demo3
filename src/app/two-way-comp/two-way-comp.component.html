@@ -1,0 +1,6 @@
+<p>two-way-comp works!</p>
+
+
+<input type="color"  [(ngModel)]="color" > {{color}} 
+<button  (click)="hanleRecolor()">click me </button>
+<p [style.color] = "color" >print me </p>
